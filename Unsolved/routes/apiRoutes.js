@@ -5,5 +5,13 @@ module.exports = function (app) {
         Workout.find().then(data =>{
             res.json(data)
         })
+        .catch(err => {
+            res.json(err)
+        })
+    });
+    app.post("/api/workouts", () => {
+        Workout.create({}).then(data => {
+            
+        })
     })
 }
