@@ -14,7 +14,7 @@ module.exports = function (app) {
             res.json(data)
         })
         .catch(err =>{
-            console.log("err", err)
+            console.log("err: >>", err)
             res.json(err)
         })
     });
@@ -26,8 +26,8 @@ module.exports = function (app) {
         )
         .then(data => res.json(data))
         .catch(err => {
-            console.log("err >>:", err)
+            console.log("err: >>", err)
             res.json(err)
         })
-    })
+    });
 }
