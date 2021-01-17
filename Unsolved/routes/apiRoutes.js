@@ -22,7 +22,12 @@ module.exports = function (app) {
         Workout.findByIdAndUpdate(
             params.id,
             { $push: { exercises: body }},
-            { new: true,}
+            { new: true, runValidators: true }
         )
+        .then(data => res.json(data))
+        .catch(err => {
+            console.log("err >>:", err)
+            res.json(err)
+        })
     })
 }
