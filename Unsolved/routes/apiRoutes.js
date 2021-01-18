@@ -1,8 +1,8 @@
-const db = require("../models");
+const db = require("../models/workoutSchema");
 
 module.exports = function (app) {
     app.get("/api/workouts", (_req, res) => {
-        db.find().then(data => {
+        db.find({}).then(data => {
             res.json(data)
         })
         .catch(err => {
@@ -29,5 +29,5 @@ module.exports = function (app) {
                 console.log("err", err)
                 res.json(err)
         })
-    })
-}
+    });
+};
