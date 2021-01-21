@@ -7,9 +7,7 @@ const workoutSchema = new Schema(
         day: {
             type: Date,
             default: () => new Date()
-        }
-    },
-    {
+        },
         exercises: [
             {
                 type: {
@@ -25,7 +23,7 @@ const workoutSchema = new Schema(
                 duration: {
                     type: Number,
                     required: "Enter an exercise duration."
-                }, 
+                },
                 weight: {
                     type: Number
                 },
