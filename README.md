@@ -1,4 +1,4 @@
-# 17_NOSQL
+# 17_fitness_tracker
 
 ## License
    
