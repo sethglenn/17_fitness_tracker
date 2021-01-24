@@ -6,7 +6,7 @@
 
   ## Description
 
-This is an application that utilizes NoSQL Database software to store workout information on a backend server. Information can be read and store to the Database when given values into a front end input field.
+This is an application that utilizes NoSQL Database software to store workout information on a backend server. Information can be read and stored to the Database when values are given into a front end input field.
 
 ## Usage
 
