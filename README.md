@@ -18,7 +18,7 @@ To use this app go to the deployed heroku site below. You can enter any amount o
   Heroku: https://fitness-tracker1738.herokuapp.com/?id=600ce9d9b7b77e0015a7c0c2
 
   ## Images
-![Screenshot01](./screenshot01.png)
+![Screenshot01](./unsolved/images/screenshot01.png)
 
 
  ## Questions
